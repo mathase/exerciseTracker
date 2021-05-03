@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family:'MyFont';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'MyFont';
+  src: local('MyFont'), url(./fonts/Gotham\ ExtraLight\ Italic.ttf) format('ttf');
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
